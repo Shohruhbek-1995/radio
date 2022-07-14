@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__checkbox {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__span1 {
+    font-size: 50px;
+    margin-left: 500px;
+}
+
+.form__checkbox>label {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.form__item1>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__item2>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__item3>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__item4>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__item5>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__list {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.box {
+    color: #000000a3;
+}
+
+.form__checkbox>label>input:checked~span {
+    color: #000000a3;
+}
+
+.form__checkbox>label>input:disabled~span {
+    color: #000000a3;
+}
+
+.form__checkbox>label>input:disabled~div {
+    color: #000000a3;
+}
+
+.form__btn {
+    margin-top: 50px;
+    color: black;
+    border-color: rgb(167, 203, 250);
+    background-color: rgb(167, 203, 250);
+    margin-left: 700px;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 2px 5px 25px rgba(0, 0, 0, 0.589);
+}
